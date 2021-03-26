@@ -51,7 +51,7 @@ while($row=$result->fetch_assoc())
 <?php
 $sql = "DELETE FROM tasks WHERE id='" . $_GET["id"] . "'";
 if (mysqli_query($conn, $sql)) {
-    echo "";
+    echo "Deleted Successfully";
 }
 
 ?>
