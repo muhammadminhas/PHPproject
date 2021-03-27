@@ -48,13 +48,13 @@ while($row=$result->fetch_assoc())
 <?php } ?>
 
 <!-- Deletion Code -->    
-<?php
+<!-- <?php
 $sql = "DELETE FROM tasks WHERE id='" . $_GET["id"] . "'";
 if (mysqli_query($conn, $sql)) {
     echo "Deleted Successfully";
 }
 
-?>
+?> -->
 
       </tbody>
       </table>
