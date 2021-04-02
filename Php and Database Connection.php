@@ -12,7 +12,7 @@ $conn=new mysqli($servername,$username,$password,$dbname);
 
             else
             {
-               
+               echo "Connection Failed!";
             }
 
 
